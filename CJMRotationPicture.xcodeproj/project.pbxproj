@@ -7,82 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		833D03662089934B00583595 /* CJMRotationPicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 833D03642089934B00583595 /* CJMRotationPicture.h */; };
-		833D03672089934B00583595 /* CJMRotationPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 833D03652089934B00583595 /* CJMRotationPicture.m */; };
-		83A214CF20874BC100CAD903 /* CJMRotationPicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A214C520874BC100CAD903 /* CJMRotationPicture.framework */; };
-		83A214D420874BC100CAD903 /* CJMRotationPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A214D320874BC100CAD903 /* CJMRotationPictureTests.m */; };
+		83F376D82089ED5F00BC114C /* CJMRotationPicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F376CE2089ED5F00BC114C /* CJMRotationPicture.framework */; };
+		83F376DD2089ED5F00BC114C /* CJMRotationPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F376DC2089ED5F00BC114C /* CJMRotationPictureTests.m */; };
+		83F376DF2089ED5F00BC114C /* CJMRotationPicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F376D12089ED5F00BC114C /* CJMRotationPicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F376EA2089EE7400BC114C /* CJMRotationPictureController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F376E82089EE7400BC114C /* CJMRotationPictureController.h */; };
+		83F376EB2089EE7400BC114C /* CJMRotationPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F376E92089EE7400BC114C /* CJMRotationPictureController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83A214D020874BC100CAD903 /* PBXContainerItemProxy */ = {
+		83F376D92089ED5F00BC114C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83A214BC20874BC100CAD903 /* Project object */;
+			containerPortal = 83F376C52089ED5F00BC114C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83A214C420874BC100CAD903;
+			remoteGlobalIDString = 83F376CD2089ED5F00BC114C;
 			remoteInfo = CJMRotationPicture;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		833D03642089934B00583595 /* CJMRotationPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMRotationPicture.h; sourceTree = "<group>"; };
-		833D03652089934B00583595 /* CJMRotationPicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMRotationPicture.m; sourceTree = "<group>"; };
-		83A214C520874BC100CAD903 /* CJMRotationPicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJMRotationPicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A214CE20874BC100CAD903 /* CJMRotationPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJMRotationPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A214D320874BC100CAD903 /* CJMRotationPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMRotationPictureTests.m; sourceTree = "<group>"; };
-		83A214D520874BC100CAD903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F376CE2089ED5F00BC114C /* CJMRotationPicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJMRotationPicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F376D12089ED5F00BC114C /* CJMRotationPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMRotationPicture.h; sourceTree = "<group>"; };
+		83F376D22089ED5F00BC114C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F376D72089ED5F00BC114C /* CJMRotationPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJMRotationPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F376DC2089ED5F00BC114C /* CJMRotationPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMRotationPictureTests.m; sourceTree = "<group>"; };
+		83F376DE2089ED5F00BC114C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F376E82089EE7400BC114C /* CJMRotationPictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMRotationPictureController.h; sourceTree = "<group>"; };
+		83F376E92089EE7400BC114C /* CJMRotationPictureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMRotationPictureController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83A214C120874BC100CAD903 /* Frameworks */ = {
+		83F376CA2089ED5F00BC114C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A214CB20874BC100CAD903 /* Frameworks */ = {
+		83F376D42089ED5F00BC114C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A214CF20874BC100CAD903 /* CJMRotationPicture.framework in Frameworks */,
+				83F376D82089ED5F00BC114C /* CJMRotationPicture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83A214BB20874BC100CAD903 = {
+		83F376C42089ED5F00BC114C = {
 			isa = PBXGroup;
 			children = (
-				83A214C720874BC100CAD903 /* CJMRotationPicture */,
-				83A214D220874BC100CAD903 /* CJMRotationPictureTests */,
-				83A214C620874BC100CAD903 /* Products */,
+				83F376D02089ED5F00BC114C /* CJMRotationPicture */,
+				83F376DB2089ED5F00BC114C /* CJMRotationPictureTests */,
+				83F376CF2089ED5F00BC114C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83A214C620874BC100CAD903 /* Products */ = {
+		83F376CF2089ED5F00BC114C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A214C520874BC100CAD903 /* CJMRotationPicture.framework */,
-				83A214CE20874BC100CAD903 /* CJMRotationPictureTests.xctest */,
+				83F376CE2089ED5F00BC114C /* CJMRotationPicture.framework */,
+				83F376D72089ED5F00BC114C /* CJMRotationPictureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83A214C720874BC100CAD903 /* CJMRotationPicture */ = {
+		83F376D02089ED5F00BC114C /* CJMRotationPicture */ = {
 			isa = PBXGroup;
 			children = (
-				833D03642089934B00583595 /* CJMRotationPicture.h */,
-				833D03652089934B00583595 /* CJMRotationPicture.m */,
+				83F376D12089ED5F00BC114C /* CJMRotationPicture.h */,
+				83F376E82089EE7400BC114C /* CJMRotationPictureController.h */,
+				83F376E92089EE7400BC114C /* CJMRotationPictureController.m */,
+				83F376D22089ED5F00BC114C /* Info.plist */,
 			);
 			path = CJMRotationPicture;
 			sourceTree = "<group>";
 		};
-		83A214D220874BC100CAD903 /* CJMRotationPictureTests */ = {
+		83F376DB2089ED5F00BC114C /* CJMRotationPictureTests */ = {
 			isa = PBXGroup;
 			children = (
-				83A214D320874BC100CAD903 /* CJMRotationPictureTests.m */,
-				83A214D520874BC100CAD903 /* Info.plist */,
+				83F376DC2089ED5F00BC114C /* CJMRotationPictureTests.m */,
+				83F376DE2089ED5F00BC114C /* Info.plist */,
 			);
 			path = CJMRotationPictureTests;
 			sourceTree = "<group>";
@@ -90,25 +95,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		83A214C220874BC100CAD903 /* Headers */ = {
+		83F376CB2089ED5F00BC114C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D03662089934B00583595 /* CJMRotationPicture.h in Headers */,
+				83F376EA2089EE7400BC114C /* CJMRotationPictureController.h in Headers */,
+				83F376DF2089ED5F00BC114C /* CJMRotationPicture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		83A214C420874BC100CAD903 /* CJMRotationPicture */ = {
+		83F376CD2089ED5F00BC114C /* CJMRotationPicture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A214D920874BC100CAD903 /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */;
+			buildConfigurationList = 83F376E22089ED5F00BC114C /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */;
 			buildPhases = (
-				83A214C020874BC100CAD903 /* Sources */,
-				83A214C120874BC100CAD903 /* Frameworks */,
-				83A214C220874BC100CAD903 /* Headers */,
-				83A214C320874BC100CAD903 /* Resources */,
+				83F376C92089ED5F00BC114C /* Sources */,
+				83F376CA2089ED5F00BC114C /* Frameworks */,
+				83F376CB2089ED5F00BC114C /* Headers */,
+				83F376CC2089ED5F00BC114C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,71 +122,71 @@
 			);
 			name = CJMRotationPicture;
 			productName = CJMRotationPicture;
-			productReference = 83A214C520874BC100CAD903 /* CJMRotationPicture.framework */;
+			productReference = 83F376CE2089ED5F00BC114C /* CJMRotationPicture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		83A214CD20874BC100CAD903 /* CJMRotationPictureTests */ = {
+		83F376D62089ED5F00BC114C /* CJMRotationPictureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A214DC20874BC100CAD903 /* Build configuration list for PBXNativeTarget "CJMRotationPictureTests" */;
+			buildConfigurationList = 83F376E52089ED5F00BC114C /* Build configuration list for PBXNativeTarget "CJMRotationPictureTests" */;
 			buildPhases = (
-				83A214CA20874BC100CAD903 /* Sources */,
-				83A214CB20874BC100CAD903 /* Frameworks */,
-				83A214CC20874BC100CAD903 /* Resources */,
+				83F376D32089ED5F00BC114C /* Sources */,
+				83F376D42089ED5F00BC114C /* Frameworks */,
+				83F376D52089ED5F00BC114C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83A214D120874BC100CAD903 /* PBXTargetDependency */,
+				83F376DA2089ED5F00BC114C /* PBXTargetDependency */,
 			);
 			name = CJMRotationPictureTests;
 			productName = CJMRotationPictureTests;
-			productReference = 83A214CE20874BC100CAD903 /* CJMRotationPictureTests.xctest */;
+			productReference = 83F376D72089ED5F00BC114C /* CJMRotationPictureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83A214BC20874BC100CAD903 /* Project object */ = {
+		83F376C52089ED5F00BC114C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "行云流水";
 				TargetAttributes = {
-					83A214C420874BC100CAD903 = {
+					83F376CD2089ED5F00BC114C = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					83A214CD20874BC100CAD903 = {
+					83F376D62089ED5F00BC114C = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 83A214BF20874BC100CAD903 /* Build configuration list for PBXProject "CJMRotationPicture" */;
+			buildConfigurationList = 83F376C82089ED5F00BC114C /* Build configuration list for PBXProject "CJMRotationPicture" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 83A214BB20874BC100CAD903;
-			productRefGroup = 83A214C620874BC100CAD903 /* Products */;
+			mainGroup = 83F376C42089ED5F00BC114C;
+			productRefGroup = 83F376CF2089ED5F00BC114C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83A214C420874BC100CAD903 /* CJMRotationPicture */,
-				83A214CD20874BC100CAD903 /* CJMRotationPictureTests */,
+				83F376CD2089ED5F00BC114C /* CJMRotationPicture */,
+				83F376D62089ED5F00BC114C /* CJMRotationPictureTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83A214C320874BC100CAD903 /* Resources */ = {
+		83F376CC2089ED5F00BC114C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A214CC20874BC100CAD903 /* Resources */ = {
+		83F376D52089ED5F00BC114C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,34 +196,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83A214C020874BC100CAD903 /* Sources */ = {
+		83F376C92089ED5F00BC114C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D03672089934B00583595 /* CJMRotationPicture.m in Sources */,
+				83F376EB2089EE7400BC114C /* CJMRotationPictureController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A214CA20874BC100CAD903 /* Sources */ = {
+		83F376D32089ED5F00BC114C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A214D420874BC100CAD903 /* CJMRotationPictureTests.m in Sources */,
+				83F376DD2089ED5F00BC114C /* CJMRotationPictureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83A214D120874BC100CAD903 /* PBXTargetDependency */ = {
+		83F376DA2089ED5F00BC114C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83A214C420874BC100CAD903 /* CJMRotationPicture */;
-			targetProxy = 83A214D020874BC100CAD903 /* PBXContainerItemProxy */;
+			target = 83F376CD2089ED5F00BC114C /* CJMRotationPicture */;
+			targetProxy = 83F376D92089ED5F00BC114C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		83A214D720874BC100CAD903 /* Debug */ = {
+		83F376E02089ED5F00BC114C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		83A214D820874BC100CAD903 /* Release */ = {
+		83F376E12089ED5F00BC114C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +339,7 @@
 			};
 			name = Release;
 		};
-		83A214DA20874BC100CAD903 /* Debug */ = {
+		83F376E32089ED5F00BC114C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -356,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		83A214DB20874BC100CAD903 /* Release */ = {
+		83F376E42089ED5F00BC114C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -379,7 +385,7 @@
 			};
 			name = Release;
 		};
-		83A214DD20874BC100CAD903 /* Debug */ = {
+		83F376E62089ED5F00BC114C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -395,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		83A214DE20874BC100CAD903 /* Release */ = {
+		83F376E72089ED5F00BC114C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -414,34 +420,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83A214BF20874BC100CAD903 /* Build configuration list for PBXProject "CJMRotationPicture" */ = {
+		83F376C82089ED5F00BC114C /* Build configuration list for PBXProject "CJMRotationPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A214D720874BC100CAD903 /* Debug */,
-				83A214D820874BC100CAD903 /* Release */,
+				83F376E02089ED5F00BC114C /* Debug */,
+				83F376E12089ED5F00BC114C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A214D920874BC100CAD903 /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */ = {
+		83F376E22089ED5F00BC114C /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A214DA20874BC100CAD903 /* Debug */,
-				83A214DB20874BC100CAD903 /* Release */,
+				83F376E32089ED5F00BC114C /* Debug */,
+				83F376E42089ED5F00BC114C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A214DC20874BC100CAD903 /* Build configuration list for PBXNativeTarget "CJMRotationPictureTests" */ = {
+		83F376E52089ED5F00BC114C /* Build configuration list for PBXNativeTarget "CJMRotationPictureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A214DD20874BC100CAD903 /* Debug */,
-				83A214DE20874BC100CAD903 /* Release */,
+				83F376E62089ED5F00BC114C /* Debug */,
+				83F376E72089ED5F00BC114C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83A214BC20874BC100CAD903 /* Project object */;
+	rootObject = 83F376C52089ED5F00BC114C /* Project object */;
 }

@@ -7,36 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		400D6F48F478D724333EB2F433CB61E2 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
-		6F8728B8C208D9F83BDA89F44E9D501F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48EF2F04BDB36F7773B535C128D64786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		65108EECDBFCB0C2DD896ED11C714411 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
+		6E632C4112C60171AF8CA64A0F24206F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6F493EE22643DFE97A4B6E83425504E8 /* CJMRotationPicture.h in Headers */ = {isa = PBXBuildFile; fileRef = D193FE1E5916340CF0C0BBBE58B75D6C /* CJMRotationPicture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9068A2E614FBCAD5A9E94FDC9D360AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9A922324D05404BB690882598D831172 /* CJMRotationPicture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB79839FE7F64C888BB01110C2C8D781 /* CJMRotationPicture-dummy.m */; };
+		FC2519201F3C19CB60642FF57A004546 /* CJMRotationPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8905288D2B543DB1D298B94BFC7F1EEE /* CJMRotationPicture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9AC8F37CA14183679D7D1666FB494B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD358E8F6BF6D95886FA95FC0EDE2C80;
+			remoteInfo = CJMRotationPicture;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3109503515248E8ADFC0AE7B23FD08CF /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEB4223CF5F10FA99D9308D11852B4F /* CJMRotationPicture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJMRotationPicture.xcconfig; sourceTree = "<group>"; };
 		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		8905288D2B543DB1D298B94BFC7F1EEE /* CJMRotationPicture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJMRotationPicture.m; path = CJMRotationPicture/CJMRotationPicture.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		F020023D44E01CCC0D980458CE6DF6CE /* CJMRotationPicture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJMRotationPicture.h; path = CJMRotationPicture/CJMRotationPicture.h; sourceTree = "<group>"; };
+		D193FE1E5916340CF0C0BBBE58B75D6C /* CJMRotationPicture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJMRotationPicture.h; path = CJMRotationPicture/CJMRotationPicture.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6B3D167AB6C3CDD31861AB1AE128139 /* CJMRotationPicture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJMRotationPicture-prefix.pch"; sourceTree = "<group>"; };
+		EB79839FE7F64C888BB01110C2C8D781 /* CJMRotationPicture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJMRotationPicture-dummy.m"; sourceTree = "<group>"; };
+		F8338189F1D96E49580CF43EF975E619 /* libCJMRotationPicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCJMRotationPicture.a; path = libCJMRotationPicture.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F40151264DFBCE103C9B340B50676CB7 /* Frameworks */ = {
+		8EFABCDAC440F31D5937A70F7F168C3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8728B8C208D9F83BDA89F44E9D501F /* Foundation.framework in Frameworks */,
+				6E632C4112C60171AF8CA64A0F24206F /* Foundation.framework in Frameworks */,
+				9068A2E614FBCAD5A9E94FDC9D360AFF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD01BABCAD0AA34AE8675250DB585025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EF2F04BDB36F7773B535C128D64786 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49111160DADFCACD401EFDCA1CB333B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8338189F1D96E49580CF43EF975E619 /* libCJMRotationPicture.a */,
+				3109503515248E8ADFC0AE7B23FD08CF /* libPods-Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC57D2C85E9E0266D84A98C389137F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB4223CF5F10FA99D9308D11852B4F /* CJMRotationPicture.xcconfig */,
+				EB79839FE7F64C888BB01110C2C8D781 /* CJMRotationPicture-dummy.m */,
+				E6B3D167AB6C3CDD31861AB1AE128139 /* CJMRotationPicture-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CJMRotationPicture";
+			sourceTree = "<group>";
+		};
 		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,75 +127,82 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		76B758C53D77F76C8E137581518C70FC /* CJMRotationPicture */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				F020023D44E01CCC0D980458CE6DF6CE /* CJMRotationPicture.h */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B765D55D395E60134B73113B9843B914 /* Pods */,
+				49111160DADFCACD401EFDCA1CB333B4 /* Products */,
+				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		936C0A1073AD4ACDE43694D4F072317D /* CJMRotationPicture */ = {
+			isa = PBXGroup;
+			children = (
+				D193FE1E5916340CF0C0BBBE58B75D6C /* CJMRotationPicture.h */,
+				8905288D2B543DB1D298B94BFC7F1EEE /* CJMRotationPicture.m */,
+				5CC57D2C85E9E0266D84A98C389137F5 /* Support Files */,
 			);
 			name = CJMRotationPicture;
 			path = CJMRotationPicture;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		B765D55D395E60134B73113B9843B914 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				93FD315E5226A3AFFDE0DA3C303DAAA9 /* Pods */,
-				E9FF6C77EF6D53C41253D64223421BB1 /* Products */,
-				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		93FD315E5226A3AFFDE0DA3C303DAAA9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				76B758C53D77F76C8E137581518C70FC /* CJMRotationPicture */,
+				936C0A1073AD4ACDE43694D4F072317D /* CJMRotationPicture */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E9FF6C77EF6D53C41253D64223421BB1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D5572068BA058A8F237A99825A9D452F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F493EE22643DFE97A4B6E83425504E8 /* CJMRotationPicture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		EFB93B8B983838F052585444CAE09C41 /* Pods-Example */ = {
+		9A1C8BEF0DAD87B51650290C0938BF00 /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95BA1BA7BB6FB545566C4B7293C88254 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = 8341BD292CA9AEE66E17CF6ADF2C96AA /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				E8B96AD32C88CB9D6A991CD55783024B /* Sources */,
-				F40151264DFBCE103C9B340B50676CB7 /* Frameworks */,
+				8BE684CA7699667429B2C52DC3F139A9 /* Sources */,
+				DD01BABCAD0AA34AE8675250DB585025 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D5005AD1E108AD425DE6FF73DF0603F /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 3109503515248E8ADFC0AE7B23FD08CF /* libPods-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD358E8F6BF6D95886FA95FC0EDE2C80 /* CJMRotationPicture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C11A7D32D832829CD91E4A0CA94196 /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */;
+			buildPhases = (
+				25E6C19CC8D2A69FEE1C15AB18EB8F07 /* Sources */,
+				8EFABCDAC440F31D5937A70F7F168C3C /* Frameworks */,
+				D5572068BA058A8F237A99825A9D452F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Example";
-			productName = "Pods-Example";
-			productReference = 5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */;
+			name = CJMRotationPicture;
+			productName = CJMRotationPicture;
+			productReference = F8338189F1D96E49580CF43EF975E619 /* libCJMRotationPicture.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -148,28 +222,116 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E9FF6C77EF6D53C41253D64223421BB1 /* Products */;
+			productRefGroup = 49111160DADFCACD401EFDCA1CB333B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFB93B8B983838F052585444CAE09C41 /* Pods-Example */,
+				DD358E8F6BF6D95886FA95FC0EDE2C80 /* CJMRotationPicture */,
+				9A1C8BEF0DAD87B51650290C0938BF00 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8B96AD32C88CB9D6A991CD55783024B /* Sources */ = {
+		25E6C19CC8D2A69FEE1C15AB18EB8F07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400D6F48F478D724333EB2F433CB61E2 /* Pods-Example-dummy.m in Sources */,
+				9A922324D05404BB690882598D831172 /* CJMRotationPicture-dummy.m in Sources */,
+				FC2519201F3C19CB60642FF57A004546 /* CJMRotationPicture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE684CA7699667429B2C52DC3F139A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65108EECDBFCB0C2DD896ED11C714411 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6D5005AD1E108AD425DE6FF73DF0603F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CJMRotationPicture;
+			target = DD358E8F6BF6D95886FA95FC0EDE2C80 /* CJMRotationPicture */;
+			targetProxy = A9AC8F37CA14183679D7D1666FB494B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		1DAC8B7596C15D89A8C07F92C9DF4233 /* Debug */ = {
+		32C4D51CF0AF2EA75EE2977F030912D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB519E8CD78900308489069F10C95F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEB4223CF5F10FA99D9308D11852B4F /* CJMRotationPicture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CJMRotationPicture/CJMRotationPicture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CJMRotationPicture;
+				PRODUCT_NAME = CJMRotationPicture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C94F731757B3FC20A6560D8816FD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEB4223CF5F10FA99D9308D11852B4F /* CJMRotationPicture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CJMRotationPicture/CJMRotationPicture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CJMRotationPicture;
+				PRODUCT_NAME = CJMRotationPicture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAAF501156E5B4E50E3D3299341883C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -248,28 +410,6 @@
 			};
 			name = Release;
 		};
-		D9F4F858DC2A8D5ADD655F52D42F2C38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		DEC9569BB66BEC125260336D8D9273BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,11 +485,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95BA1BA7BB6FB545566C4B7293C88254 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		8341BD292CA9AEE66E17CF6ADF2C96AA /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DAC8B7596C15D89A8C07F92C9DF4233 /* Debug */,
-				D9F4F858DC2A8D5ADD655F52D42F2C38 /* Release */,
+				ACAAF501156E5B4E50E3D3299341883C /* Debug */,
+				32C4D51CF0AF2EA75EE2977F030912D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C11A7D32D832829CD91E4A0CA94196 /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB519E8CD78900308489069F10C95F9 /* Debug */,
+				48C94F731757B3FC20A6560D8816FD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

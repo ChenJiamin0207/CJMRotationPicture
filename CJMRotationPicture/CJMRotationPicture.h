@@ -8,35 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for CJMRotationPicture.
+FOUNDATION_EXPORT double CJMRotationPictureVersionNumber;
 
-/**
- 选中图片完成处理
- 
- @param nPicture 选中的第几张图片
- */
-typedef void(^ selectCompletion)(NSInteger nPicture);
+//! Project version string for CJMRotationPicture.
+FOUNDATION_EXPORT const unsigned char CJMRotationPictureVersionString[];
 
+// In this header, you should import all the public headers of your framework using statements like #import <CJMRotationPicture/PublicHeader.h>
 
-/**
- 轮播图
- */
-@interface CJMRotationPicture : UIView
-
-
-/**
- 初始化方法
- 
- @param frame 布局
- @param complete 选择处理
- @return 实例化对象
- */
-- (instancetype)initWithFrame:(CGRect)frame selectComplete:(selectCompletion)complete;
-
-/**
- 更新轮播图，支持 UIImage 数组 或 图片地址 NSString 数组
- 
- @param arrPicture 图片数据
- */
-- (void)updateDataWithPictureArray:(NSArray *)arrPicture;
-
-@end
+#import <CJMRotationPicture/CJMRotationPictureController.h>

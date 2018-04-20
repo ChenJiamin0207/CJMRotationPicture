@@ -1,5 +1,5 @@
 //
-//  CJMRotationPicture.h
+//  CJMRotationPictureController.h
 //  CJMRotationPicture
 //
 //  Created by 行云流水 on 2018/4/20.
@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+
 
 
 /**
@@ -20,7 +21,7 @@ typedef void(^ selectCompletion)(NSInteger nPicture);
 /**
  轮播图
  */
-@interface CJMRotationPicture : UIView
+@interface CJMRotationPictureController : UIView
 
 
 /**
@@ -38,5 +39,6 @@ typedef void(^ selectCompletion)(NSInteger nPicture);
  @param arrPicture 图片数据
  */
 - (void)updateDataWithPictureArray:(NSArray *)arrPicture;
+
 
 @end

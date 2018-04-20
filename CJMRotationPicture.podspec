@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CJMRotationPicture"
-  s.version      = "0.0.1"
+  s.version      = "1.0.2"
   s.summary      = "轮播图"
 
   # This description is used to generate tags and improve search results.
