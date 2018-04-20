@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833D03662089934B00583595 /* CJMRotationPicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 833D03642089934B00583595 /* CJMRotationPicture.h */; };
+		833D03672089934B00583595 /* CJMRotationPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 833D03652089934B00583595 /* CJMRotationPicture.m */; };
 		83A214CF20874BC100CAD903 /* CJMRotationPicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A214C520874BC100CAD903 /* CJMRotationPicture.framework */; };
 		83A214D420874BC100CAD903 /* CJMRotationPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A214D320874BC100CAD903 /* CJMRotationPictureTests.m */; };
-		83A214D620874BC100CAD903 /* CJMRotationPicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A214C820874BC100CAD903 /* CJMRotationPicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		833D03642089934B00583595 /* CJMRotationPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMRotationPicture.h; sourceTree = "<group>"; };
+		833D03652089934B00583595 /* CJMRotationPicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMRotationPicture.m; sourceTree = "<group>"; };
 		83A214C520874BC100CAD903 /* CJMRotationPicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJMRotationPicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A214C820874BC100CAD903 /* CJMRotationPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMRotationPicture.h; sourceTree = "<group>"; };
-		83A214C920874BC100CAD903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A214CE20874BC100CAD903 /* CJMRotationPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJMRotationPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A214D320874BC100CAD903 /* CJMRotationPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMRotationPictureTests.m; sourceTree = "<group>"; };
 		83A214D520874BC100CAD903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,8 +72,8 @@
 		83A214C720874BC100CAD903 /* CJMRotationPicture */ = {
 			isa = PBXGroup;
 			children = (
-				83A214C820874BC100CAD903 /* CJMRotationPicture.h */,
-				83A214C920874BC100CAD903 /* Info.plist */,
+				833D03642089934B00583595 /* CJMRotationPicture.h */,
+				833D03652089934B00583595 /* CJMRotationPicture.m */,
 			);
 			path = CJMRotationPicture;
 			sourceTree = "<group>";
@@ -93,7 +94,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A214D620874BC100CAD903 /* CJMRotationPicture.h in Headers */,
+				833D03662089934B00583595 /* CJMRotationPicture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833D03672089934B00583595 /* CJMRotationPicture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
