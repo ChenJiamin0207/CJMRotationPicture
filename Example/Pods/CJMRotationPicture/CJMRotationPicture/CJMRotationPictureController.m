@@ -1,12 +1,13 @@
 //
-//  CJMRotationPicture.m
+//  CJMRotationPictureController.m
 //  CJMRotationPicture
 //
 //  Created by 行云流水 on 2018/4/20.
 //  Copyright © 2018年 行云流水. All rights reserved.
 //
 
-#import "CJMRotationPicture.h"
+#import "CJMRotationPictureController.h"
+
 
 
 // 主视图的长宽
@@ -15,7 +16,7 @@
 
 static NSString *gPictureID = @"PictureID";
 
-@interface CJMRotationPicture () <UICollectionViewDelegate, UICollectionViewDataSource>
+@interface CJMRotationPictureController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 /**
  主集合图
@@ -45,11 +46,12 @@ static NSString *gPictureID = @"PictureID";
 @end
 
 
-@implementation CJMRotationPicture
+@implementation CJMRotationPictureController
+
 
 /**
  初始化方法
-
+ 
  @param frame 布局
  @param complete 选择处理
  @return 实例化对象
@@ -275,7 +277,6 @@ static NSString *gPictureID = @"PictureID";
     // 更新页码
     [self updataPageNumber];
 }
-
 
 /*
 // Only override drawRect: if you perform custom drawing.

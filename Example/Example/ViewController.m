@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CJMRotationPicture.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // test
+    CJMRotationPictureController *rotation = [[CJMRotationPictureController alloc] initWithFrame:CGRectMake(0, 64, 320, 200) selectComplete:^(NSInteger nPicture) {
+       
+        NSLog(@"点击了第%ld图片", nPicture);
+    }];
+    [self.view addSubview:rotation];
+    
+    // 载入图片
+    [rotation updateDataWithPictureArray:@[[UIImage imageNamed:@"desk1"], [UIImage imageNamed:@"test2"], [UIImage imageNamed:@"desk1"], [UIImage imageNamed:@"test2"]]];
 }
 
 
