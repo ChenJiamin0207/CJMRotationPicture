@@ -1,0 +1,16 @@
+PODS:
+  - CJMRotationPicture (0.0.1)
+
+DEPENDENCIES:
+  - CJMRotationPicture
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CJMRotationPicture
+
+SPEC CHECKSUMS:
+  CJMRotationPicture: fb33132801ad28a8032f6b575600cfe0b1de55d4
+
+PODFILE CHECKSUM: 77d161b27e2b7f9020a7ebbb49110098c9101e98
+
+COCOAPODS: 1.5.0.beta.1
