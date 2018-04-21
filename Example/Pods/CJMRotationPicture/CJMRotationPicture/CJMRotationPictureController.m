@@ -81,7 +81,7 @@ static NSString *gPictureID = @"PictureID";
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
     [flowLayout setItemSize:self.frame.size];
     
-    UICollectionView *collectTemp = [[UICollectionView alloc] initWithFrame:self.frame collectionViewLayout:flowLayout];
+    UICollectionView *collectTemp = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, kViewWidth, kViewHeight) collectionViewLayout:flowLayout];
     [collectTemp setBackgroundColor:[UIColor whiteColor]];
     // 隐藏水平滚动条
     collectTemp.showsHorizontalScrollIndicator = NO;

@@ -1,5 +1,5 @@
 PODS:
-  - CJMRotationPicture (1.0.4)
+  - CJMRotationPicture (1.0.5)
 
 DEPENDENCIES:
   - CJMRotationPicture
@@ -9,7 +9,7 @@ SPEC REPOS:
     - CJMRotationPicture
 
 SPEC CHECKSUMS:
-  CJMRotationPicture: 9e57e933ed14c63e4b8bd46d979d67ba09414926
+  CJMRotationPicture: f80f74e032daadaaba2ca9662a0c982e0188f713
 
 PODFILE CHECKSUM: bee93d4d6f51f31b82156ac12f0823c20054de45
 

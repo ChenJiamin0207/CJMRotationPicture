@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		401A5FB68DD658EEC398F4E69964FFB4 /* Release */ = {
+		5033273977826E08D9015B2D8F3079A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA6E8462F85902F666E1325A3E0BA831 /* CJMRotationPicture.xcconfig */;
 			buildSettings = {
@@ -381,7 +381,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/CJMRotationPicture/CJMRotationPicture-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -396,7 +396,7 @@
 			};
 			name = Release;
 		};
-		FA41D5654D31F66ACCD2118776D5CE30 /* Debug */ = {
+		F6EE947D3D6EBF71C472A3F05AFBF339 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA6E8462F85902F666E1325A3E0BA831 /* CJMRotationPicture.xcconfig */;
 			buildSettings = {
@@ -405,7 +405,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/CJMRotationPicture/CJMRotationPicture-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -501,8 +501,8 @@
 		8612242276DAD272927B7658AC430628 /* Build configuration list for PBXNativeTarget "CJMRotationPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA41D5654D31F66ACCD2118776D5CE30 /* Debug */,
-				401A5FB68DD658EEC398F4E69964FFB4 /* Release */,
+				F6EE947D3D6EBF71C472A3F05AFBF339 /* Debug */,
+				5033273977826E08D9015B2D8F3079A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
