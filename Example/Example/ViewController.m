@@ -10,6 +10,10 @@
 #import "CJMRotationPicture.h"
 
 
+// 屏幕的宽和高
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+
 @interface ViewController ()
 
 @end
