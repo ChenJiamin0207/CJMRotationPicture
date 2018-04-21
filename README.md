@@ -328,7 +328,6 @@ CJMRotationPictureController *rotation = [[CJMRotationPictureController alloc] i
 
 ![轮播图](sources/QQ20180421-162530.gif)
 
-[GitHub 上的代码](https://github.com/ChenJiamin0207/CJMRotationPicture)
 使用 CocoaPods 集成：
 ```
 pod 'CJMRotationPicture'
