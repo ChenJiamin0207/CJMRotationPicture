@@ -325,6 +325,7 @@ CJMRotationPictureController *rotation = [[CJMRotationPictureController alloc] i
 [rotation updateDataWithPictureArray:@[[UIImage imageNamed:@"desk1"], [UIImage imageNamed:@"test2"], [UIImage imageNamed:@"desk1"], [UIImage imageNamed:@"test2"]]];
 ```
 结果截图：
+
 ![轮播图](sources/QQ20180421-162530.gif)
 
 [GitHub 上的代码](https://github.com/ChenJiamin0207/CJMRotationPicture)
