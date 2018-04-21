@@ -25,7 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // test
-    CJMRotationPictureController *rotation = [[CJMRotationPictureController alloc] initWithFrame:CGRectMake(0, 64, 320, 200) selectComplete:^(NSInteger nPicture) {
+    CJMRotationPictureController *rotation = [[CJMRotationPictureController alloc] initWithFrame:CGRectMake(0, 64, kScreenWidth, kScreenWidth/2) selectComplete:^(NSInteger nPicture) {
        
         NSLog(@"点击了第%ld图片", nPicture);
     }];

@@ -1,5 +1,5 @@
 PODS:
-  - CJMRotationPicture (1.0.2)
+  - CJMRotationPicture (1.0.4)
 
 DEPENDENCIES:
   - CJMRotationPicture
@@ -9,8 +9,8 @@ SPEC REPOS:
     - CJMRotationPicture
 
 SPEC CHECKSUMS:
-  CJMRotationPicture: 24014b81ddc127f48fb8b4dbf618923c800efb37
+  CJMRotationPicture: 9e57e933ed14c63e4b8bd46d979d67ba09414926
 
-PODFILE CHECKSUM: 77d161b27e2b7f9020a7ebbb49110098c9101e98
+PODFILE CHECKSUM: bee93d4d6f51f31b82156ac12f0823c20054de45
 
 COCOAPODS: 1.5.0
