@@ -324,7 +324,7 @@ CJMRotationPictureController *rotation = [[CJMRotationPictureController alloc] i
 [rotation updateDataWithPictureArray:@[[UIImage imageNamed:@"desk1"], [UIImage imageNamed:@"test2"], [UIImage imageNamed:@"desk1"], [UIImage imageNamed:@"test2"]]];
 ```
 结果截图：
-![轮播图](https://upload-images.jianshu.io/upload_images/3892076-154de0e042cf9d10.gif?imageMogr2/auto-orient/strip)
+![轮播图](sources/QQ20180421-162530.gif)
 
 [GitHub 上的代码](https://github.com/ChenJiamin0207/CJMRotationPicture)
 使用 CocoaPods 集成：
